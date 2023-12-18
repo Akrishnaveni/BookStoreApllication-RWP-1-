@@ -1,0 +1,41 @@
+.book-item-container {
+    flex: 0 1 30%;
+    text-align: center;
+    box-sizing: "border-box";
+    padding: 0 10px;
+    transition-duration: 0.5s;
+    margin: 5px;
+}
+
+.book-item-container:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.book-image{
+    width: 300px;
+}
+.book-title{
+    font-size: 18px;
+    text-wrap: wrap;
+    margin: 2px;
+
+}
+.book-subtitle{
+    font-size: 15px;
+    text-wrap: wrap;
+    margin: 2px;
+}
+.book-price{
+    font-size: 18px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.book-item-nav-link{
+    text-decoration: none;
+    color: black; 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }

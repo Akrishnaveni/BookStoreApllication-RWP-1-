@@ -1,0 +1,25 @@
+.price-range-container {
+    width: 100%;
+    display: flex;
+    flex-basis: 20%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+  }
+  
+  .price-range-heading {
+    font-size: 18px;
+    padding-top: 15px;
+    margin: auto;
+  }
+  
+  .slider-container {
+    width: 80%;
+    justify-self: end;
+    font-family: "Roboto";
+    margin: auto;
+    padding-top: 45px;
+    padding-bottom: 20px;
+  }
