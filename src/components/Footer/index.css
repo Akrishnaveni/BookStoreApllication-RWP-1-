@@ -1,0 +1,55 @@
+.footer {
+  color: #384047;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.c-1 {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.li {
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.icon-container {
+  display: flex;
+}
+.icon {
+  margin-right: 5px;
+}
+
+.hr {
+  width: 95vw;
+  text-align: center;
+}
+.c-2 {
+  width: 95vw;
+  display: flex;
+  justify-content: space-between;
+}
+.h {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.option {
+  margin-right: 15px;
+}
+.options-1 {
+  padding-top: 25px;
+}
+.copy-right {
+  text-align: center;
+  font-size: 22px;
+}
+.lm {
+  font-weight: bold;
+}

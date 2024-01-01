@@ -1,0 +1,47 @@
+.s-container {
+  padding: 20px;
+}
+.heading-container {
+  display: flex;
+}
+.heading {
+  font-size: 30px;
+}
+
+.expand {
+  display: flex;
+  justify-content: flex-end;
+}
+.link-list {
+  list-style: none;
+  text-align: right;
+}
+
+.link-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.list {
+  margin-left: 20px;
+}
+.active {
+  border-left: 3px solid rgb(233, 86, 12);
+  font-weight: bold;
+}
+.inbox {
+  height: 20px;
+  min-width: 150px;
+  color: orangered;
+  border-radius: 14px;
+  border: 1px solid #404240;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.sup {
+  color: orangered;
+  font-size: 9px;
+  font-weight: 500;
+}
